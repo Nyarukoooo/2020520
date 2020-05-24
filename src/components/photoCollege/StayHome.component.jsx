@@ -42,7 +42,7 @@ class StayHome extends Component {
             <div className="container" style={{backgroundColor:'#E4C2C1'}}>
                 <Fade right onReveal={() => this.numberDec()}>
                     <div className="pg_inital" style={{width: '80%', margin:'0 auto'}}>
-                        <h1>“ 突如其来的疫情 让我们有了同居的机会  ”</h1>
+                        <h1>“ 突如其来的疫情 让我们有了朝夕相处的机会  ”</h1>
                         <h1>欢迎来到Watertown - <span>{this.state.numberStart}</span> days ago </h1>
                     </div>
                 </Fade>

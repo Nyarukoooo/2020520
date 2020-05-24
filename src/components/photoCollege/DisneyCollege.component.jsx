@@ -10,7 +10,8 @@ import disney5 from '../../resources/images/disney5.JPG';
 import disney6 from '../../resources/images/disney6.jpeg';
 import disney7 from '../../resources/images/disney7.jpeg';
 import disney8 from '../../resources/images/disney8.jpeg';
-
+import disney9 from '../../resources/images/disney9.JPG';
+import disney10 from '../../resources/images/disney10.JPG';
 
 
 class DisneyCollege extends React.Component{
@@ -48,14 +49,14 @@ class DisneyCollege extends React.Component{
                     </div>
                 </Fade>
     
-                <div className="gallery">
+                <div className="gallery_h">
                     <Fade left cascade>
                         <figure className="gallery__item gallery__item--1">
                             <img alt="Disney" src={disney1} className="gallery__img" />
                         </figure>
 
                         <figure className="gallery__item gallery__item--2">
-                            <img alt="Disney" src={disney2} className="gallery__img" />
+                            <img alt="Disney" src={disney4} className="gallery__img" />
                         </figure>
 
                         <figure className="gallery__item gallery__item--3">
@@ -63,7 +64,7 @@ class DisneyCollege extends React.Component{
                         </figure>
 
                         <figure className="gallery__item gallery__item--4">
-                            <img alt="Disney" src={disney4} className="gallery__img" />
+                            <img alt="Disney" src={disney2} className="gallery__img" />
                         </figure>
 
                         <figure className="gallery__item gallery__item--5">
@@ -81,6 +82,15 @@ class DisneyCollege extends React.Component{
                         <figure className="gallery__item gallery__item--8">
                             <img alt="Disney" src={disney8} className="gallery__img" />
                         </figure>
+
+                        <figure className="gallery__item gallery__item--9">
+                            <img alt="Disney" src={disney9} className="gallery__img" />
+                        </figure>
+
+                        <figure className="gallery__item gallery__item--10">
+                            <img alt="Disney" src={disney10} className="gallery__img" />
+                        </figure>
+
                     </Fade>
                 </div>
             </div>
